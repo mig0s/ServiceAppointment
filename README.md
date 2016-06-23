@@ -37,3 +37,42 @@ The system was developed as an assignment for Active Server Pages .NET module of
 > Also, the website application should have a database to store and access data. The database could be a
 > Microsoft Access database or any database of your choice.
 > As a web developer, you are required to accomplish these tasks for Singa Aircon Limited.
+
+### Member’s Login Registration
+(copyright TMC Academy – School of IT, Digital Media & Mass Comm, May 2015):
+
+The public user must register a login account as a member before they can do the appointment booking
+to service their appliance or view other related appliance information. Once they have logged in as a
+member, they can have the choice to change their login password.
+
+### Login Authentication
+(copyright TMC Academy – School of IT, Digital Media & Mass Comm, May 2015):
+
+Different types of user can be assigned to the relevant web pages. For example, a login member would
+be able to perform online booking appointment.
+You are expected to use login controls with proper configuration in terms of security permission for users
+(role-based authentication) for the development of this task.
+
+### Booking appointment
+(copyright TMC Academy – School of IT, Digital Media & Mass Comm, May 2015):
+
+Customers who are members can book appointments to service their appliances with specific technicians
+at least three days in advance. The members can select the appropriate time and date. Once the booking
+is done, the status of the appointment will be pending for confirmation from the system. The members will
+be advised to check on the next day for confirmation. This information will be displayed as per the
+booking. If a member needs to change the appointment after the confirmation, they need to cancel the
+booked appointment.
+
+### Confirm appointments
+(copyright TMC Academy – School of IT, Digital Media & Mass Comm, May 2015):
+
+A notification will be sent by the system to confirm by the technician when there is an appointment made
+by a customer. Once the front-office staff assigns the appointment to the technician, the system will then
+update the status of appointment and indicate the date, time and venue. Otherwise, Singa Aircon Limited,
+would contact the customer personally to reschedule the appointment and update the system
+accordingly. The technician can also view all their booked appointments.
+
+### Report Generation
+(copyright TMC Academy – School of IT, Digital Media & Mass Comm, May 2015):
+
+The front office staff can generate a list of daily booked appointments for each month.
