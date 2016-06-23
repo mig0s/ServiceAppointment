@@ -1,0 +1,94 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="Site.master.vb" Inherits="ServiceAppointment.Site" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+
+<head id="Head1" runat="server">
+    <title></title>
+    <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+    </head>
+<body style="background:url('http://airconditions.aliansoftware.net/wp-content/uploads/2013/05/ice-background.jpg'); background-attachment:fixed;">
+    <form id="Form1" runat="server">
+    <div class="page">
+        <div class="header">
+            <div class="title">
+                <h1>
+                    Singa Aircon
+                </h1>
+            </div>
+            <div class="loginDisplay">
+                <asp:LoginView ID="HeadLoginView" runat="server" EnableViewState="false">
+                    <AnonymousTemplate>
+                        [ <a href="~/Account/Login.aspx" ID="HeadLoginStatus" runat="server">Log In</a> ]
+                    </AnonymousTemplate>
+                    <LoggedInTemplate>
+                        Welcome <span class="bold"><asp:LoginName ID="HeadLoginName" runat="server" /></span>!
+                        [ <asp:LoginStatus ID="HeadLoginStatus" runat="server" LogoutAction="Redirect" LogoutText="Log Out" LogoutPageUrl="~/"/> ]
+                    </LoggedInTemplate>
+                </asp:LoginView>
+            </div>
+            <div class="clear hideSkiplink">
+                
+                 
+                <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu" EnableViewState="false" IncludeStyleBlock="false" Orientation="Horizontal">
+                    <Items>
+                        <asp:MenuItem NavigateUrl="~/Default.aspx" Text="Home"/>
+                        <asp:MenuItem NavigateUrl="~/About.aspx" Text="About"/>
+                        <asp:MenuItem NavigateUrl="~/Promotions.aspx" Text="Promotions" />
+                        <asp:MenuItem NavigateUrl="~/Suggestions.aspx" Text="Suggestions" />
+                        <asp:MenuItem NavigateUrl="~/Signupmemeber.aspx" Text="Sign up registration" />
+                        <asp:MenuItem NavigateUrl="~/Account/Register.aspx" Text="Login Registeration" />
+                        <asp:MenuItem NavigateUrl="~/Login.aspx" Text="User Login" />
+                    </Items>
+                </asp:Menu>
+            </div>
+        </div>
+        <div class="main" style="visibility: visible; display: inherit;">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server"/>
+
+        <div class='row'>
+        <br />
+              <div class='col-lg-3'>
+              <font face="Verdana" size="2"><font color="#272C53"><b>SINGA AIRCONDITIONING PTE LTD</b></font><br>
+              Co. Reg. No. : 199500765N<br>
+              GST Reg. No. : M2-8921024-5<br>
+              &nbsp;<br>
+              </div>
+              <div class='col-lg-3'>
+              <b><font color="#272C53">Office Address:</font></b><br>
+              Block 11 Kallang Place<br>
+              #05-04 Kallang Basin Industrial Estate<br>
+              Singapore 339155<br>
+              Tel: 6291 6188<br>
+              Fax: 6291 2679<br>
+              &nbsp;<br>
+              </div>
+              <div class='col-lg-3'>
+              <font color="#272C53"><b>Project &amp; Domestic Sales:</b></font><br>
+              Teo Wang Meng<br>
+              Email: <a href="mailto:teo@singa-aircon.com.sg">teo@singa-aircon.com.sg</a><br>
+              <br>
+              </div>
+              <div class='col-lg-3'>
+              <font color="#272C53"><b>Maintenance Department:</b></font><br>
+              Jennifer Lim<br>
+              Tel: 6291 6188<br>
+              Email: <a href="mailto:singa@singa-aircon.com.sg">
+              singa@singa-aircon.com.sg</a> </font>
+              </p>
+              </div>
+        </div>
+                <div>
+                    <asp:Menu ID="Menu1" runat="server" DataSourceID="SiteMapDataSource1">
+                    </asp:Menu>
+                    <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" />
+        </div>
+        </div>
+
+    </div>
+    </form>
+</body>
+</html>

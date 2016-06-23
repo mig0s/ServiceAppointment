@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+  <Ad>
+    <ImageUrl>http://www.coolserve.com.sg/imgs/products/EuropAce_Casement_2065S.jpeg</ImageUrl>
+    <NavigateUrl>Documents/1.pdf</NavigateUrl>
+    <AlternateText>2400 BTU LG Inverter</AlternateText>
+    <Keyword>P1</Keyword>
+    <Impressions>2</Impressions>
+  </Ad>
+  <Ad>
+    <ImageUrl>http://www.coolserve.com.sg/imgs/products/EuropAce_Portable%20Air%20Con_2639S.jpeg</ImageUrl>
+    <NavigateUrl>Documents/2.pdf</NavigateUrl>
+    <AlternateText>LG 1700 PLT ARTCOOL PLATINUM</AlternateText>
+    <Keyword>P2</Keyword>
+    <Impressions>2</Impressions>
+  </Ad>
+  <Ad>
+    <ImageUrl>http://www.coolserve.com.sg/imgs/products/Daikin_Wall%20Mounted_2510S.jpeg</ImageUrl>
+    <NavigateUrl>Documents/3.pdf</NavigateUrl>
+    <AlternateText>LG SLT 1900 SPLIT COOLER</AlternateText>
+    <Keyword>P3</Keyword>
+    <Impressions>2</Impressions>
+  </Ad>
+</Advertisements>
